@@ -1,0 +1,36 @@
+---
+title: " Shiny Application and Reproducible Pitch"
+author: "Zilin Chen"
+date: "2017/3/13"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Discription
+
+This project is anCourse Project: Shiny Application and Reproducible Pitch
+You can find this app in <https://rexchen.shinyapps.io/Shiny/>.
+And the github link <https://github.com/RexOrangeChen/Shiny-Application-and-Reproducible-Pitch>.
+
+
+## Ideas
+
+This project make an elementary plot to fake some functionality as manipulate.
+
+This project provide a plot of some points, and enable us to find best fit line of the plot by hands.
+
+## Original plot without line
+
+```{r cars, echo = TRUE}
+x <- 1:10
+y <- 1:10
+y <- y + 1
+plot(x,y)
+```
+
+## How to use 
+You can move the slider to change the value of slope and intercept of the line
+
